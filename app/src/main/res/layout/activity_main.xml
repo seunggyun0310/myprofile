@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F5F5">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:paddingLeft="10dp"
+        android:scaleX="1.2"
+        android:scaleY="1.05"
+        android:text="IT"
+        android:textColor="#6F8E49"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="296dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="384dp"
+        android:background="@drawable/edittext_border"
+        android:backgroundTint="#6F8E49"
+        android:text="로그인"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="296dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/edittext_border"
+        android:backgroundTint="#6F8E49"
+        android:text="회원가입"
+        android:textSize="13sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ID"
+        android:layout_width="296dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="264dp"
+        android:background="@drawable/edittext_border"
+        android:backgroundTint="#AFA9A9"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="296dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="324dp"
+        android:background="@drawable/edittext_border"
+        android:backgroundTint="#AFA9A9"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/forgotPasswordTextView"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:clickable="true"
+        android:onClick="forgotPasswordClicked"
+        android:text="아이디 찾기 | 비밀번호 찾기"
+        android:textColor="#151414"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

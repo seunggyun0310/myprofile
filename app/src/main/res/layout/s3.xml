@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FF0000">
+
+    <include
+
+        android:id="@+id/s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/contentsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/titleEditText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:text="2023-03-29 업데이트 내역\n1. 전체 UI 개선\n2. 캘린더 추가\n- 현재 날짜 확인 가능\n- 자세히 보기 클릭 시 날짜 선택 가능\n- 일정 입력 후 일정 추가 버튼 클릭 시 현재 날짜에 일정 추가\n3. 시간표 UI 추가\n- 확인하기 클릭 시 시간표 UI 확인 가능\n4. 학사공지 / 학사일정 추가\n- 학사공지 / 학사 일정 클릭 시 해당 홈페이지로 이동\n5. 배너 추가\n- 자동 슬라이드 형식 광고 배너 추가\n6.프로필 탭 추가\n- 신고하기/로그아웃/회원 탈퇴 메인 -> 프로필 탭으로 이동\n7.구글 애드몹 추가\n- 테스트 광고 배너 추가 \n   \n2021-07-09 업데이트 내역\n1. 공지사항 추가\n- 앱에 대한 추가 기능과 개선된 부분을 공지\n2. 시간표 추가
+\n- 시간표 추가 \n3. 문의하기 추가\n- 불만사항 및 개선사항 등 문의하고자 하는 내용을 접수\n4. 홈페이지 바로가기 추가\n- 해당 학교 홈페이지 바로가기\n\n 2021-07-09 공지사항\n 파스텔 앱에 추가적인 기능과 오류 및 기능 이 개선 되었습니다.\n
+추가적인 기능 부분은 업데이트 내역을 확인해 주시기 바랍니다."
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
